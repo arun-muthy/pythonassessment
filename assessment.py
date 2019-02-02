@@ -1,6 +1,7 @@
 import pymysql as sql
 db = sql.connect("localhost", "root", "", "qabank")
 
+iigi g
 
 def account_creation():
     create = input("Would you like to create a new account? y/n")
